@@ -1078,6 +1078,10 @@ span {
 }
 
 @media (max-width: 462px) {
+    html{
+        font-size: 38%;
+    }
+
     .home {
         justify-content: center;
     }
@@ -1115,7 +1119,8 @@ span {
     }
 
     .home-social a {
-        bottom: 8rem;
+        bottom: -4rem;
+        right: 4.5rem;
     }
 
     .contact form .input-box .input-feild {
@@ -1132,6 +1137,10 @@ span {
 }
 
 @media (max-width: 371px) {
+    html{
+        font-size: 27.5%;
+    }
+
     .home {
         justify-content: center;
     }
@@ -1149,7 +1158,7 @@ span {
     }
 
     .home-social a {
-        bottom: 8rem;
+        bottom: 12rem;
         z-index: 10;
     }
 
