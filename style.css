@@ -569,6 +569,7 @@ span {
     border-radius: .6rem;
     margin-bottom: 2rem;
     overflow: hidden;
+    height: 20rem;
 }
 
 .education-content .content::before {
