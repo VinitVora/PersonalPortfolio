@@ -27,7 +27,7 @@ html {
 }
 
 body {
-    /* background: var(--bg-color); */
+    background: var(--bg-color);
     color: var(--text-color);
     cursor: default;
 }
@@ -314,7 +314,7 @@ section {
 
 .home-img img {
     position: absolute;
-    top: 20%;
+    top: 18%;
     right: 0;
 }
 
@@ -485,8 +485,32 @@ span {
 }
 
 /* Education Section */
-.education {
+/* .education{
     background: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    padding-bottom: 5rem;
+}
+
+.education .education-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.education-row .education-column{
+    flex: 1 1 40rem;
+}
+
+.education-column .title{
+    font-size: 2.5rem;
+    margin: 0 0 1.5rem 2rem;
+} */
+
+.education {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -498,7 +522,8 @@ span {
 
 .education .education-row {
     display: flex;
-    gap: 5rem;
+    flex-wrap: wrap;
+    gap: 4rem;
 }
 
 .education-row .education-column {
@@ -506,9 +531,11 @@ span {
 }
 
 .education-column .title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 0 0 1.5rem 2rem;
     text-align: start;
+    position: relative;
+    left: 0.6rem;
 }
 
 .education-column .education-box {
@@ -518,7 +545,6 @@ span {
 .education-box .education-content {
     position: relative;
     padding-left: 2rem;
-    width: 50rem;
 }
 
 .education-box .education-content::before {
@@ -532,12 +558,16 @@ span {
     border-radius: 50%;
 }
 
+.education-box .education-content .content:hover {
+    cursor: pointer;
+}
+
 .education-content .content {
     position: relative;
-    padding: 1.5rem;
+    padding: 1rem;
     border: .2rem solid var(--main-color);
     border-radius: .6rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     overflow: hidden;
 }
 
@@ -546,22 +576,20 @@ span {
     position: absolute;
     top: 0;
     left: 0;
-    width: 0%;
+    width: 0;
     height: 100%;
-    background: rgba(0, 255, 255, 0);
-    z-index: 1;
-    transition: 0.7s;
+    background-color: #005a7d;
+    z-index: -1;
+    transition: 1s;
 }
 
 .education-content .content:hover::before {
     width: 100%;
-    background-color: rgba(0, 255, 255, 0.3);
 }
 
 .education-content .content .year {
     font-size: 1.5rem;
     color: var(--main-color);
-    padding-bottom: .5rem;
 }
 
 .education-content .content .year i {
@@ -984,6 +1012,10 @@ span {
     .home .arrow {
         display: none;
     }
+
+    .education-row{
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 575px) {
@@ -1044,10 +1076,6 @@ span {
 }
 
 @media (max-width: 462px) {
-    html {
-        font-size: 35%;
-    }
-
     .home {
         justify-content: center;
     }
