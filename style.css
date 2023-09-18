@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Poppins:wght@300&display=swap');
 
@@ -764,7 +763,6 @@ span {
     width: 0;
     height: 100%;
     background: rgba(255, 0, 0, 0);
-    ;
     border-radius: .6rem;
     z-index: 1;
     transition: .8s;
@@ -990,7 +988,7 @@ span {
         display: none;
     }
 
-    .education-row{
+    .education-row {
         flex-direction: column;
     }
 }
@@ -1026,7 +1024,7 @@ span {
 
 @media (max-width: 525px) {
     html {
-        font-size: 45%;
+        font-size: 40%;
     }
 
     #menu-icon {
@@ -1035,6 +1033,103 @@ span {
 
     .button {
         font-size: 3.5rem;
+    }
+
+    .home-section h1{
+        font-size: 7rem;
+    }
+
+    .home-section p{
+        font-size: 2.5rem;
+    }
+
+    .btn-box {
+        width: 50rem;
+        margin-top: 5rem;
+        gap: 3rem;
+        bottom: 3rem;
+    }
+
+    .btn-box .btn {
+        width: 20rem;
+        height: 6rem;
+        font-size: 3rem;;
+    }
+
+    .home-social a{
+        font-size: 3rem;
+    }
+
+    .about .heading {
+        font-size: 8rem;
+    }
+
+    .about-content h3{
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .about-content p{
+        font-size: 2.5rem;
+        margin-bottom: 0rem;
+    }
+
+    .btn-box.btns {
+        margin-top: 2rem;
+        right: 3rem;
+    }
+
+    .btn-box.btns .btn{
+        font-size: 2.5rem;
+    }
+
+    .education .heading {
+        font-size: 9rem;
+    }
+
+    .education-content .content .year {
+        font-size: 2rem;
+    }
+
+    .education-content .content h3 {
+        font-size: 3rem;
+    }
+
+    .education-content .content p {
+        font-size: 1.9rem;
+    }
+
+    .skills-column .title {
+        font-size: 4rem;
+    }
+
+    .skills-progress .progress h3 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .contact .heading {
+        font-size: 9rem;
+        margin-bottom: 2rem;
+        margin-top: 0;
+    }
+
+    .contact form .input-box .input-feild input,
+    .contact form .textarea-feild textarea {
+        font-size: 3rem;
+    }
+
+    .contact form .input-box .input-feild {
+        margin-bottom: 2rem;
+    }
+
+    .contact .btn-box.btns .btn{
+        bottom: 3rem;
+        right: 2rem;
+    }
+
+    .footer-text p{
+        font-size: 2.5rem;
     }
 }
 
@@ -1053,7 +1148,7 @@ span {
 }
 
 @media (max-width: 462px) {
-    html{
+    html {
         font-size: 38%;
     }
 
@@ -1079,14 +1174,14 @@ span {
     }
 
     .btn-box {
-        width: 40rem;
+        width: 50rem;
         margin-top: 5rem;
         gap: 3rem;
     }
 
     .btn-box .btn {
-        width: 19rem;
-        font-size: 2.5rem;
+        width: 25rem;
+        font-size: 3rem;
     }
 
     .home-section h1 {
@@ -1094,12 +1189,18 @@ span {
     }
 
     .home-social a {
+        font-size: 3rem;
         bottom: -4rem;
         right: 4.5rem;
     }
 
     .contact form .input-box .input-feild {
         width: 100%;
+    }
+
+    .btn-box.btns {
+        margin-top: 2rem;
+        right: 6rem;
     }
 
     .footer {
@@ -1112,8 +1213,23 @@ span {
 }
 
 @media (max-width: 371px) {
-    html{
+    html {
         font-size: 27.5%;
+    }
+
+    .about .heading {
+        font-size: 10rem;
+    }
+
+    .about-content h3 {
+        font-size: 5rem;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    .about-content p {
+        font-size: 3rem;
+        margin-top: 3rem;
     }
 
     .home {
@@ -1121,30 +1237,81 @@ span {
     }
 
     .home-section .text-animate h2 {
-        font-size: 5.5rem;
+        font-size: 6rem;
     }
 
     .home-section p {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .home-section h1 {
-        font-size: 7rem;
+        font-size: 10rem;
     }
 
     .home-social a {
-        bottom: 12rem;
+        bottom: 5rem;
         z-index: 10;
+        font-size: 5rem;
     }
 
     .btn-box {
-        width: 40rem;
+        width: 52rem;
         margin-top: 5rem;
-        gap: 3rem;
     }
 
     .btn-box .btn {
-        width: 19rem;
-        font-size: 2.5rem;
+        width: 25rem;
+        height: 7rem;
+        font-size: 3rem;
+    }
+
+    .education .heading {
+        font-size: 9rem;
+    }
+
+    .education-content .content .year {
+        font-size: 2rem;
+    }
+
+    .education-content .content h3 {
+        font-size: 3rem;
+    }
+
+    .education-content .content p {
+        font-size: 1.9rem;
+    }
+
+    .skills .heading {
+        font-size: 10rem;
+    }
+
+    .skills-column .title {
+        font-size: 4rem;
+    }
+
+    .skills-progress .progress h3 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .contact .heading {
+        font-size: 9rem;
+        margin-bottom: 2rem;
+        margin-top: 0;
+    }
+
+    .contact form .input-box .input-feild input,
+    .contact form .textarea-feild textarea {
+        font-size: 3rem;
+    }
+
+    .contact form .input-box .input-feild {
+        margin-bottom: 2.5rem;
+    }
+
+    .contact .btn-box.btns .btn{
+        font-size: 3.5rem;
+        top: 5rem;
+        right: 2rem;
     }
 }
