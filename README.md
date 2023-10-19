@@ -35,12 +35,14 @@ This website is built using the following technologies:
 - **HTML5**: For the structure and content.
 - **CSS3**: For styling and layout.
 - **JavaScript (ES6)**: To enhance interactivity.
+- **Firebase**: For backend services and real-time database capabilities.
 
 ## Project Structure
 
 - `index.html`: The main HTML file that defines the structure of the website.
 - `style.css`: The CSS file responsible for styling the website.
 - `script.js`: JavaScript for interactivity and dynamic content.
+- `mail.js`: Integrates Firebase for handling form submissions, saving data to Firebase Realtime Database, and displaying submission alerts.
 
 ## Local Development
 
