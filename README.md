@@ -26,6 +26,8 @@ I'm Vinit Vora, a passionate web developer, and this is my personal portfolio we
 
 - **Skills**: A list of the technologies and skills I've acquired over my journey.
 
+- **Projects**: A Carousel of the projects that I've made.
+
 - **Contact Information**: Reach out to me through email, LinkedIn, or GitHub if you'd like to collaborate or just say hi.
 
 ## Technologies Used
