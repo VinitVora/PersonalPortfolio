@@ -693,43 +693,43 @@ span {
     transition: width 1s;
 }
 
-.skills-progress .progress #bar1:hover::before {
+.skills-progress .progress #bar1::before {
     width: 90%;
 }
 
-.skills-progress .progress #bar2:hover::before {
+.skills-progress .progress #bar2::before {
     width: 70%;
 }
 
-.skills-progress .progress #bar3:hover::before {
+.skills-progress .progress #bar3::before {
     width: 50%;
 }
 
-.skills-progress .progress #bar4:hover::before {
+.skills-progress .progress #bar4::before {
     width: 80%;
 }
 
-.skills-progress .progress #bar5:hover::before {
+.skills-progress .progress #bar5::before {
     width: 60%;
 }
 
-.skills-progress .progress #bar6:hover::before {
+.skills-progress .progress #bar6::before {
     width: 70%;
 }
 
-.skills-progress .progress #bar7:hover::before {
+.skills-progress .progress #bar7::before {
     width: 93%;
 }
 
-.skills-progress .progress #bar8:hover::before {
+.skills-progress .progress #bar8::before {
     width: 84%;
 }
 
-.skills-progress .progress #bar9:hover::before {
+.skills-progress .progress #bar9::before {
     width: 87%;
 }
 
-.skills-progress .progress #bar10:hover::before {
+.skills-progress .progress #bar10::before {
     width: 75%;
 }
 
